@@ -89,9 +89,34 @@ button:active,:checked{
 }
 .me_img{
     position:absolute;
-    border: 4px solid rgb(35, 129, 223);
     margin-left: 10%;
     margin-top: 10%;
     float:left;
     height:268px;
+}
+.me_info{
+    border: 0px solid rgb(35, 129, 223);
+    display: block;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 16.5px;
+    font-weight: 400;
+    width: 300px;
+    text-align: left;
+    margin-left: 130%;
+    margin-top: -90%;
+
+}
+.me_info_title{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18.5px;
+    font-weight: 800;
+    display: block;
+    margin-top: -90%;
+    margin-bottom: 10%;
+
+
+}
+main{
+   display: block;
+   align-content: center;
 }
