@@ -31,11 +31,11 @@
                 </span>
             </div>
             <div class=nav_header>
-                <a class="left-menu" href="#about_me">Обо мне</a>
-                <a class="left-menu" href="#skills">Навыки</a>
-                <a class="left-menu" href="#education">Образование</a>
-                <a class="left-menu" href="#portfolio">Портфолио</a>
-                <a class="left-menu" href="#contact">Контакты</a>
+                <a id = "scroll_about" class="left-menu" href="#about_me">Обо мне</a>
+                <a id = "scroll_skills" class="left-menu" href="#skills">Навыки</a>
+                <a id = "scroll_education" class="left-menu" href="#education">Образование</a>
+                <a id = "scroll_portfolio"class="left-menu" href="#portfolio">Портфолио</a>
+                <a id = "scroll_contact" class="left-menu" href="#contact">Контакты</a>
             </div>
         </div>
     </header>
@@ -82,7 +82,7 @@
                     </div>
                     
                 </div>
-                <div class="me_info">
+                <div id = "skills"class="me_info">
                     <span class="me_info_title">Константин Волобуев</span>
                     <br></br>
                     <br><span class="me_info_description">C ранних лет заинтересовался программированием,
@@ -137,8 +137,8 @@
             </div>
 
 
-    <div class="container-education" id="education">
-        <div class="title_education">
+    <div class="container-education">
+        <div id="education" class="title_education">
             <span>Образование</span>
         </div>
         <div class="text-container-education">
@@ -156,7 +156,7 @@
     <div class="title_portfolio" id="portfolio">
         <span>Портфолио</span>
     </div>
-    <div class="container-portfolio">
+    <div id = "portfolio" class="container-portfolio">
         <div class="portfolio_card">
             <a id="a_portfolio" class="portfolio_click"
                 href="https://play.google.com/store/apps/details?id=com.Skilletron.TapDownTree"> <img src="img/icon.png"
@@ -186,8 +186,9 @@
     <div class="title_contact_me">
         <span>Контакты для связи</span>
     </div>
-    <div class="container-contact">
-        <div class="contact_me" id="contact">
+    <div  id = "contact" class="container-contact">
+        <div class="contact_me_column" id="contact">
+            <div class = "contact_me">
             <a target="blank" href="https://vk.com/skilletron" id="contact"><img src="img/vk.png" width="80vw"></a>
             <a target="blank" href="https://wa.me/+79198710661" id="contact"><img src="img/whatsapp.png"
                     width="80vw"></a>
@@ -199,10 +200,72 @@
                     src="img/linkedin.png" width="80vw"></a>
         </div>
     </div>
+    </div>
     <script type="text/javascript">
-        $("body").on('click', '[href*="#"]', function (e) {
-            $.scrollTo($(this.hash), 1600);
-        });
+   $(document).ready(function(){
+	$('#scroll_about').click(function(){
+	
+		var speed = 1000;
+		
+	
+		var top = $('#about_me').offset().top;
+		
+		$('html, body').animate({scrollTop: top}, speed);
+		
+		return false;
+	});
+});
+$('#scroll_skills').click(function(){
+	
+		var speed = 1000;
+		
+	
+		var top = $('#skills').offset().top;
+		
+		$('html, body').animate({scrollTop: top}, speed);
+		
+		return false;
+	});
+;
+
+$('#scroll_education').click(function(){
+	
+		var speed = 1000;
+		
+	
+		var top = $('#education').offset().top;
+		
+		$('html, body').animate({scrollTop: top}, speed);
+		
+		return false;
+	});
+;
+$(document).ready(function(){
+	$('#scroll_portfolio').click(function(){
+	
+		var speed = 1000;
+		
+	
+		var top = $('#portfolio').offset().top;
+		
+		$('html, body').animate({scrollTop: top}, speed);
+		
+		return false;
+	});
+});
+$(document).ready(function(){
+	$('#scroll_contact').click(function(){
+	
+		var speed = 1000;
+		
+	
+		var top = $('#contact').offset().top;
+		
+		$('html, body').animate({scrollTop: top}, speed);
+		
+		return false;
+	});
+});
     </script>
 </body>
 

@@ -4,7 +4,7 @@ body{
 }
 .container-contact{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
     flex: 1 1 auto;
     width: 100%;
@@ -12,7 +12,12 @@ body{
 
 }
 .contact_me{
+    
     margin-top: 2vw;
+}
+.contact_me_column{
+    display:flex;
+    flex-direction: column;
 }
 .title_contact_me{
     font-family: 'PT Sans Narrow', sans-serif;
