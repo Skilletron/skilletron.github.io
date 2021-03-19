@@ -102,7 +102,7 @@ button:hover{
     width: 8vw;;
     background-color: rgb(233, 231, 231);
     color:rgb(35, 129, 223);
-    border-radius:12px;
+    border-radius:1.2vw;
 }
 button:focus{
     outline: none;
@@ -164,7 +164,6 @@ button:focus{
     margin-top: -2vw;
     font-size:1.8vw;
     flex: 1 1 auto;
-  
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 700;
 }
