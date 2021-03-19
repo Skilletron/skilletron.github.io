@@ -1,18 +1,20 @@
 .text_education{
-    float: left;
+    text-align: center;
+    
     font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.8vw;
     font-weight: 700;
-
-    margin-right: 22%;
     
 }
 .specialization{
+   
     float: left;
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .date{
     float: left;
+   
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
@@ -20,27 +22,26 @@
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    float: left;
-    width: 111.2%;
-    margin-left: -1%;
-    margin-top: 400px;
-    height: 200px;
+    width: 100%;
+    margin-top: 40vw;
+    height: 0vw;
     box-shadow: 0 0 5px 2px rgb(243, 240, 240);
 }
 
 .text-container-education{
     display: flex;
+
     float:left;
     justify-content: space-around;
     flex-direction: row;
-    margin:80px;
+    margin:8vw;
 }
 .title_education{
     font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 20px;
+
+    font-size: 3vw;
     font-weight: 600;
-    margin-top:-4%;
-    margin-left:45.2%;
-    float: left;
+    margin-top:-15vw;
+    text-align: center;
     
 }

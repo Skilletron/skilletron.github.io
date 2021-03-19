@@ -1,89 +1,105 @@
 
-.header{
-    display: block;
-    background-color: rgb(35, 129, 223);
-    width: 111.2%;
-    margin: -1%;
-    height: 400px;
-
-}
-.content{
+html, body {
+    margin: 0;
+  }
+.content_header{
     display: flex;
+    background-color: rgb(35, 129, 223);
+    border: 2px solid rgb(35, 129, 223);
+    flex:1 1 auto;
+    width: 100%;
+    margin: 0 auto;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content:space-around;
 }
 .main-container{
+  
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    height: 400px;
-    margin-top: 100px;
-    width: 100%;
+    justify-content:space-around;
+    height: 800px;
+    align-items: flex-start;
+    margin:0 auto;
+    margin-left:5%;
+    margin-top: 10vw;
+    width: 90%;
    
 }
-.me_info{
-    margin-right: -150px;
-    margin-top: 100px;
-}
 .header_text_name{
+
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 4vh;
     color: ghostwhite;
 }
 .header_text_spec{
+ 
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 3vh;
     color: ghostwhite;
 }
-.nav{  
-font-family: 'PT Sans Narrow', sans-serif;
-font-size: 16px;
-font-weight: 500;
-color: ghostwhite;
-text-decoration: none;
-margin:20px;
+
+.info_header{
+    display: flex;
+    flex-direction: column;
+    flex:1 1 auto;
+    font-size:1vw;
+    margin-top: 7vh;
+    margin-left: 20vh;
+    
 }
-.info{
-    margin-top: 160px;
-    margin-left: 0px;
+.logo_header{
+    font-size:1vw;
+    margin:1vw;
+    
 }
-.logo{
-    margin:10px;
+.nav_header{  
+
+    flex:1 0 auto;
+    text-align: right;
+    font-size:2vw;
+    color: ghostwhite;
+    height: 5vw;
+    text-decoration: none;
+    margin-top:0.8vw;
+    margin-right:0.8vw;
 }
 a{
     font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 16px;
+    font-size: 1.6vw;
     font-weight: 500;
     color: ghostwhite;
     text-decoration: none;
-    margin:2px;
+    margin:0.2vw;
 }
 a:hover{
     font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 16.1px;
+    font-size: 1.60vw;
     font-weight: 700;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 0.5vw;
 }
 .hire_btn{
     border: black;
     font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    height:30px;
+    font-size: 1.6vw;
+    font-weight: 1000;
+    text-align: center;
+    height:3vw;
+    width: 10vw;;
     background-color: white;
     color:rgb(35, 129, 223);
-    border-radius:12px;
+    border-radius:1.2vw;
 }
 button:hover{
     border:0px;
     font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 16.5px;
+    font-size: 2vw;
     font-weight: 600;
-    height:30px;
+    height:3vw;
+    width: 8vw;;
     background-color: rgb(233, 231, 231);
     color:rgb(35, 129, 223);
     border-radius:12px;
@@ -91,75 +107,85 @@ button:hover{
 button:focus{
     outline: none;
     font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 16px;
+    font-size: 2vw;
     font-weight: 600;
-    height:30px;
+    height:3vw;
+    width: 8vw;;
     background-color: white;
     color:rgb(35, 129, 223);
-    border-radius:12px;
+    border-radius:1.2vw;
 }
 .info{
     display: flex;
     float: left;
-    margin-bottom: 5%;
+    margin-bottom: 0.5vw;
     align-items: flex-end;
     flex-direction: row;
 }
 .main{
     display: flex;
     margin:0 auto;
-    height:800px;
+    height:80vw;
 }
 .me_img{
-    border:3px solid rgb(35, 129, 223);
-    border-radius: 5px;
-    margin-left: 60px;
-    margin-top: 10%;
-    float:left;
-    height:268px;
+    display: flex;
+    flex-direction: column;
+  
+    height:26.8vw;
 }
 .me_card{
-    position: relative;
+    
     box-shadow: 0 0 5px 2px rgb(194, 193, 193);
-    height:300px;
+    height:60vw;
    
 }
-.me_info{
-    display: block;
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 16.5px;
-    font-weight: 400;
-    width: 350px;
-    white-space: normal;
-    line-height: 20px;
-    text-align: left;
-}
+
 .me_info_title{
     font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 17px;
+    font-size:2vw;
     font-weight: 800;
 }
+.me_info{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+ 
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size:1.6vw;
+    font-weight: 500;
+    margin:0 auto;
+    
+    margin-left: 2vw;
+    white-space: normal;
+    line-height: 2vw;
+    text-align: center;
+}
 .li_me_title{
-    margin-top: -10px;
+    margin-top: -2vw;
+    font-size:1.8vw;
+    flex: 1 1 auto;
+  
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 700;
 }
 .li_me_skills{
     font-family: 'PT Sans Narrow', sans-serif;
-    margin: 5px;
-    margin-left:18px;
+    font-size:1.7vw;
+  
+    width: 15vw;
+    margin-left: 1vw;
+    flex: 1 1 auto;
     list-style-type: none;
 }
 ul li:before{
     color: rgb(35, 129, 223);
     content: "•"; 
-    padding-right: 7px; 
+    flex: 1 1 auto;
+    padding-right: 0.7vw; 
 }
 
-main{
-   display: block;
-   align-content: center;
-}
+
 .container-portfolio{
     position: relative;
 }
+

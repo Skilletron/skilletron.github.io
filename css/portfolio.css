@@ -1,40 +1,42 @@
+body,html{
+    margin:0;
+}
 .container-portfolio{
     display: flex;
+    flex: 1 1 auto;
+    
     justify-content: space-around;
     flex-direction: row;
-    float: left;
-    width: 111.2%;
-    margin-left: -1%;
-    height: 160px;
-    margin-top:1%;
+    width: 90%;
+    margin-left: 5vw;
+    height: auto;
+    margin-top:10vw;
     box-shadow: 0 0 5px 2px rgb(243, 240, 240);
 }
 .portfolio_card{
-    padding: 2%;
-    box-shadow: 0 0 5px 2px rgb(243, 239, 239);
+   
+    flex: 0 1 auto;
+    font-family: 'PT Sans Narrow', sans-serif;
+    
+    text-align: center;
+    width: 90%;
+    font-size: 1.8vw;
+    font-weight: 700;
+
+    box-shadow: 0 0 0.5vw 0.2vw rgb(243, 239, 239);
 
 }
-.card_info{
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 14px;
-    padding: 10%;
-    font-weight: 700;
-}
-.card_info_tm {
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 14px;
-    padding: 25%;
-    font-weight: 700;
-}
+
 #a_portfolio:hover{
-    border-radius: 0px;
-    box-shadow:0px 0px 50px 20px rgb(209, 209, 212);
+    border-radius: 0vw;
+    flex: 1 1 auto;
+    box-shadow:0vw 0vw 5vw 2vw rgb(209, 209, 212);
 }
 .title_portfolio{
     font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 20px;
+    font-size: 2.9vw;
+    text-align: center;
     font-weight: 600;
-    margin-top:1%;
-    margin-left:50%;
-    float: left;
+    margin-top:10vw;
+    width: 100%;
 }
