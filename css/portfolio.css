@@ -3,26 +3,22 @@ body,html{
 }
 .container-portfolio{
     display: flex;
-    flex: 1 1 auto;
-    
+    flex: 0 0 auto;
     justify-content: space-around;
     flex-direction: row;
     width: 100%;
-   
+    padding: -1vw;
     height: auto;
     margin-top:10vw;
     box-shadow: 0 0 5px 2px rgb(243, 240, 240);
 }
 .portfolio_card{
-   
-    flex: 0 1 auto;
+    flex: 1 1 auto;
     font-family: 'PT Sans Narrow', sans-serif;
-    
     text-align: center;
     width: 100%;
     font-size: 1.8vw;
     font-weight: 700;
-
     box-shadow: 0 0 0.5vw 0.2vw rgb(248, 245, 245);
 
 }
