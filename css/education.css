@@ -2,6 +2,8 @@
     float: left;
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 700;
+
+    margin-right: 22%;
     
 }
 .specialization{
@@ -16,7 +18,7 @@
 
 .container-education{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: column;
     float: left;
     width: 111.2%;
