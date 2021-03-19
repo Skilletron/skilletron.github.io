@@ -7,8 +7,8 @@ body,html{
     
     justify-content: space-around;
     flex-direction: row;
-    width: 90%;
-    margin-left: 5vw;
+    width: 100%;
+   
     height: auto;
     margin-top:10vw;
     box-shadow: 0 0 5px 2px rgb(243, 240, 240);
@@ -19,11 +19,11 @@ body,html{
     font-family: 'PT Sans Narrow', sans-serif;
     
     text-align: center;
-    width: 90%;
+    width: 100%;
     font-size: 1.8vw;
     font-weight: 700;
 
-    box-shadow: 0 0 0.5vw 0.2vw rgb(243, 239, 239);
+    box-shadow: 0 0 0.5vw 0.2vw rgb(248, 245, 245);
 
 }
 
