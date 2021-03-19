@@ -1,13 +1,31 @@
 
 .header{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row-reverse;
-    margin: -1%;
+    display: block;
     background-color: rgb(35, 129, 223);
-    width: 102%;
+    width: 111.2%;
+    margin: -1%;
     height: 400px;
 
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main-container{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin: 0px auto;
+    float: left;
+    height: 400px;
+    margin-top: 100px;
+    width: 80%;
+    justify-content: space-between;
+}
+.me_info{
+    margin-right: -150px;
+    margin-top: 100px;
 }
 .header_text_name{
     font-family: 'PT Sans Narrow', sans-serif;
@@ -21,29 +39,36 @@
     font-size: 20px;
     color: ghostwhite;
 }
-.header_logo{
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-weight: 800;
-    font-size: 30px;
-    float:left;
-    color: ghostwhite;
-    margin: 1% 1% 1%;
+.nav{  
+font-family: 'PT Sans Narrow', sans-serif;
+font-size: 16px;
+font-weight: 500;
+color: ghostwhite;
+text-decoration: none;
+margin:20px;
 }
-.left-menu{
+.info{
+    margin-top: 160px;
+    margin-left: 0px;
+}
+.logo{
+    margin:10px;
+}
+a{
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 16px;
     font-weight: 500;
     color: ghostwhite;
     text-decoration: none;
-    margin: 4% 0% 0% -8%;
+    margin:2px;
 }
 a:hover{
     font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 16.3px;
-    font-weight: 600;
-    color: ghostwhite;
+    font-size: 16.1px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    margin: 4% 0% 0% -8%;
+    border-radius: 5px;
 }
 .hire_btn{
     border: black;
@@ -65,13 +90,13 @@ button:hover{
     color:rgb(35, 129, 223);
     border-radius:12px;
 }
-button:active,:checked{
-    border:0px;
+button:focus{
+    outline: none;
     font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 16.5px;
+    font-size: 16px;
     font-weight: 600;
     height:30px;
-    background-color: rgb(233, 231, 231);
+    background-color: white;
     color:rgb(35, 129, 223);
     border-radius:12px;
 }
@@ -88,35 +113,55 @@ button:active,:checked{
     height:800px;
 }
 .me_img{
-    position:absolute;
-    margin-left: 10%;
+    border:3px solid rgb(35, 129, 223);
+    border-radius: 5px;
+    margin-left: 60px;
     margin-top: 10%;
     float:left;
     height:268px;
 }
+.me_card{
+    position: relative;
+    box-shadow: 0 0 5px 2px rgb(194, 193, 193);
+    height:300px;
+   
+}
 .me_info{
-    border: 0px solid rgb(35, 129, 223);
     display: block;
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 16.5px;
     font-weight: 400;
-    width: 300px;
+    width: 350px;
+    white-space: normal;
+    line-height: 20px;
     text-align: left;
-    margin-left: 130%;
-    margin-top: -90%;
-
 }
 .me_info_title{
     font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 18.5px;
+    font-size: 17px;
     font-weight: 800;
-    display: block;
-    margin-top: -90%;
-    margin-bottom: 10%;
-
-
 }
+.li_me_title{
+    margin-top: -10px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+}
+.li_me_skills{
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 5px;
+    margin-left:18px;
+    list-style-type: none;
+}
+ul li:before{
+    color: rgb(35, 129, 223);
+    content: "•"; 
+    padding-right: 7px; 
+}
+
 main{
    display: block;
    align-content: center;
+}
+.container-portfolio{
+    position: relative;
 }

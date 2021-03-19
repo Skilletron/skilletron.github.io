@@ -1,0 +1,101 @@
+.greyProgress_0,.greyProgress_1,.greyProgress_2,.greyProgress_3
+,.greyProgress_4,.greyProgress_5,.greyProgress_6,.greyProgress_7,.greyProgress_8 {
+    position: relative;
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 7px;
+    height: 10px;
+  }
+.bar_0 {
+    position: relative;
+    width: 50%;
+    height: 10px;
+    background-color:rgb(35, 129, 223);
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 7px;
+  }
+.bar_1 {
+    position: relative;
+    width: 40%;
+    height: 10px;
+    background-color:rgb(35, 129, 223);
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 7px;
+  }
+
+.bar_2 {
+    position: relative;
+    width: 60%;
+    height: 10px;
+    background-color:rgb(35, 129, 223);
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 7px;
+  }
+
+.bar_3 {
+    position: relative;
+    width: 30%;
+    height: 10px;
+    background-color:rgb(35, 129, 223);
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 7px;
+  }
+
+.bar_4 {
+    position: relative;
+    width: 40%;
+    height: 10px;
+    background-color:rgb(35, 129, 223);
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 7px;
+  }
+  .bar_5 {
+    position: relative;
+    width: 65%;
+    height: 10px;
+    background-color:rgb(35, 129, 223);
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 7px;
+  }
+  .bar_6 {
+    position: relative;
+    width: 53%;
+    height: 10px;
+    background-color:rgb(35, 129, 223);
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 7px;
+  }
+  .bar_7 {
+    position: relative;
+    width: 75%;
+    height: 10px;
+    background-color:rgb(35, 129, 223);
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 7px;
+  }
+  .bar_8 {
+    position: relative;
+    width: 40%;
+    height: 10px;
+    background-color:rgb(35, 129, 223);
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 7px;
+  }

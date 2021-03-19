@@ -1,44 +1,211 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Константин Волобуев - сайт визитка</title>
-    <link rel="stylesheet" href = "skilletron.github.io/tree/main/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bar.css">
+    <link rel="stylesheet" href="css/education.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/contact.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>
 </head>
+
 <body>
-    <header class = "header">
-        
-        <a class = "left-menu"href = "#">Контакты</a>
-        <a class = "left-menu"href = "#">Клиенты</a>
-        <a class = "left-menu"href = "#">Портфолио</a>
-        <a class = "left-menu"href = "#">Навыки</a>
-        <a class = "left-menu"href = "#">Образование</a>
-        <a class = "left-menu"href = "#">Обо мне</a>
-        <div class="info">
-            <span class="header_text_name">Я Константин Волобуев
-                <p class="header_text_spec" >Техник-программист</p>
-                <p><button class = "hire_btn">Найми меня</button></p>
-          </span>
-        </div>
-        <div class = "header_logo">
-            <span class = "text_logo">КВ</span>
+    <header class="header">
+        <div class=content>
+            <div class="logo">
+                <a href="#"><span class="header_text_name">КВ</span></a>
+            </div>
+            <div class="info">
+                <span class="header_text_name">Я Константин Волобуев
+                    <p class="header_text_spec">Техник-программист</p>
+                    <p><button class="hire_btn" onclick="location.href='mailto:forestskilletron@gmail.com'">Найми
+                            меня</button></p>
+                </span>
+            </div>
+            <div class=nav>
+                <a class="left-menu" href="#about_me">Обо мне</a>
+                <a class="left-menu" href="#skills">Навыки</a>
+                <a class="left-menu" href="#education">Образование</a>
+                <a class="left-menu" href="#portfolio">Портфолио</a>
+                <a class="left-menu" href="#contact">Контакты</a>
+            </div>
         </div>
     </header>
     <content>
+
         <main>
-            <div class = "me_img">
-                <img src = "img/me.jpg.png" width = 300px>
-                
-                <div class = "me_info">
-                    <span class="me_info_title">Константин Волобуев</span>
-                    <span>Здравствуйте, меня зовут Константин, с ранних лет заинтересовался программированием, впервые начал разрабатывать мобильные приложения на C# в 15 лет, после 3 лет обучения набрался опыта и смог сделать свое первое коммерческое приложение для платформы Android , которое было опубликован в Play Market. Мне также пришлось изучить основы UI/UX при разработке игр для платформы Android.Также не могу не сказать, что во время учебы в колледже я изучил основы проектирования и создания баз данных с помощью PHPmyAdmin SQL запросов к базе данных. На данный момент живу в России, но при необходимости готов переехать в другие страны </span>
+
+            <div class="main-container" id="about_me">
+
+                <div class="me_img">
+                    <img src="img/me.jpg.png" width=300px>
+                    <div class="me_card">
+                        <ul>
+                            <br></br>
+                            <li type=none class=li_me_title>
+                                Навыки
+                            </li color="blue">
+                            <li class=li_me_skills>
+                                HTML
+                            </li>
+                            <li class=li_me_skills>
+                                CSS
+                            </li>
+                            <li class=li_me_skills>
+                                Figma
+                            </li>
+                            <li class=li_me_skills>
+                                Adobe Illustrator
+                            </li>
+                            <li class=li_me_skills>
+                                CorelDraw
+                            </li>
+                            <li class=li_me_skills>
+                                Adobe Photoshop
+                            </li>
+                            <li class=li_me_skills>
+                                Adobe Premier Pro
+                            </li>
+
+                            <li class=li_me_skills>
+                                Unity
+                            </li>
+                            <li class=li_me_skills>
+                                C#
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+
+                <div class="me_info">
+                    <span class="me_info_title">Константин Волобуев</span>
+                    <br></br>
+                    <br><span class="me_info_description">C ранних лет заинтересовался программированием,
+                        впервые начал разрабатывать мобильные приложения на C# в 15 лет, после 2 лет обучения
+                        набрался опыта и смог сделать свое первое коммерческое приложение для платформы Android ,
+                        которое было опубликован в Play Market. Мне также пришлось изучить основы UI/UX при
+                        разработке игр для платформы Android.Также не могу не сказать, что во время учебы в колледже
+                        я изучил основы проектирования и создания баз данных с помощью PHPmyAdmin SQL запросов к
+                        базе данных. На данный момент живу в России, но при необходимости готов переехать в другие
+                        страны </span><br>
+                    <br></br>
+                    <span class="skill" id="skills">HTML</span>
+                    <div class="greyProgress_0">
+                        <div class="bar_0"></div>
+                    </div>
+                    <span class="skill">CSS</span>
+                    <div class="greyProgress_1">
+                        <div class="bar_1"></div>
+                    </div>
+                    <span class="skill">Figma</span>
+                    <div class="greyProgress_2">
+                        <div class="bar_2"></div>
+                    </div>
+                    <span class="skill"> Adobe Illustrator</span>
+                    <div class="greyProgress_3">
+                        <div class="bar_3"></div>
+                    </div>
+                    <span class="skill">CorelDraw</span>
+                    <div class="greyProgress_4">
+                        <div class="bar_4"></div>
+                    </div>
+                    <span class="skill">Adobe Photoshop</span>
+                    <div class="greyProgress_5">
+                        <div class="bar_5"></div>
+                    </div>
+                    <span class="skill">Adobe Premier Pro</span>
+                    <div class="greyProgress_6">
+                        <div class="bar_6"></div>
+                    </div>
+                    <span class="skill">Unity</span>
+                    <div class="greyProgress_7">
+                        <div class="bar_7"></div>
+                    </div>
+                    <span class="skill">C#</span>
+                    <div class="greyProgress_8">
+                        <div class="bar_8"></div>
+                    </div>
+                </div>
+            </div>
             </div>
         </main>
     </content>
+
+    <div class="container-education" id="education">
+        <div class="title_education">
+            <span>Образование</span>
+        </div>
+        <div class="text-container-education">
+            <img class="picture_education" src="img/education.png" height="60px" width="60px">
+            <span class=text_education>Неполное среднее образование<br>
+                <span class="date">2018-2022</span></span>
+
+            <img class="picture_education" src="img/education.png" height="60px" width="60px">
+            <span class=text_education>Ростовский-на-дону колледж связи и информатики<br>
+                <span class="date">2018-2022</span><br>
+                <span class="specialization">Техник-программист</span>
+            </span>
+        </div>
+    </div>
+    <div class="title_portfolio" id="portfolio">
+        <span>Портфолио</span>
+    </div>
+    <div class="container-portfolio">
+        <div class="portfolio_card">
+            <a id="a_portfolio" class="portfolio_click"
+                href="https://play.google.com/store/apps/details?id=com.Skilletron.TapDownTree"> <img src="img/icon.png"
+                    width="100px"></a><br>
+            <span class="card_info">Tap Down Tree</span>
+        </div>
+        <div class="portfolio_card">
+            <a id="a_portfolio" class="portfolio_click"
+                href="https://play.google.com/store/apps/details?id=com.TDM.TapDownTree2"><img src="img/icon_2.png"
+                    width="100px"></a><br>
+            <span class="card_info">Tap Down Tree 2</span>
+        </div>
+        <div class="portfolio_card">
+            <a id="a_portfolio" class="portfolio_click"
+                href="https://play.google.com/store/apps/details?id=com.TDM.CalculatorDarts"><img src="img/icon_3.png"
+                    width="100px"></a><br>
+            <span class="card_info">Darts Calculator</span>
+        </div>
+        <div class="portfolio_card">
+            <a id="a_portfolio" class="portfolio_click"
+                href="https://play.google.com/store/apps/details?id=com.Skilletron.TrashMan"><img src="img/icon_4.png"
+                    width="100px"></a><br>
+            <span class="card_info_tm">Trash Man</span>
+        </div>
+
+    </div>
+    <div class="title_contact_me">
+        <span>Контакты для связи</span>
+    </div>
+    <div class="container-contact">
+        <div class="contact_me" id="contact">
+            <a target="blank" href="https://vk.com/skilletron" id="contact"><img src="img/vk.png" width="40px"></a>
+            <a target="blank" href="https://wa.me/+79198710661" id="contact"><img src="img/whatsapp.png"
+                    width="40px"></a>
+            <a target="blank" href="tg://resolve?domain=@username_skilletron" id="contact"><img src="img/tg.png"
+                    width="40px"></a>
+            <a target="blank" href="mailto:forestskilletron@gmail.com" id="contact"><img src="img/gmail.png"
+                    width="40px"></a>
+            <a target="blank" href="https://www.linkedin.com/in/konstantin-volobuev-ab74461b0/" id="contact"><img
+                    src="img/linkedin.png" width="40px"></a>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $("body").on('click', '[href*="#"]', function (e) {
+            $.scrollTo($(this.hash), 1600);
+        });
+    </script>
 </body>
+
 </html>
