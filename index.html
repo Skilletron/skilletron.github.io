@@ -138,7 +138,7 @@
         </div>
     </div>
     </div>
-
+    <a href="#" id="toTop"></a>
 
     <div class="container-education">
         <div id="education" class="title_education">
@@ -271,6 +271,26 @@ $(document).ready(function(){
 		return false;
 	});
 });
+$(function(){
+  $.fn.scrollToTop=function(){
+    $(this).hide().removeAttr("href");
+    if($(window).scrollTop()!="0"){
+        $(this).fadeIn("slow")
+  }
+  var scrollDiv=$(this);
+  $(window).scroll(function(){
+    if($(window).scrollTop()=="0"){
+    $(scrollDiv).fadeOut("slow")
+    }else{
+    $(scrollDiv).fadeIn("slow")
+  }
+  });
+    $(this).click(function(){
+      $("html, body").animate({scrollTop:0},"slow")
+    })
+  }
+});
+$(function() {$("#toTop").scrollToTop();});
     </script>
 </body>
 
