@@ -43,7 +43,10 @@
     <div class="main-container" id="about_me">
 
         <div class="me_img">
-            <img src="img/me.jpg.png" width="400vw" height="400vw";
+
+          
+
+            <img src="img/me.jpg.png" width=380vw>
             <div class="me_card">
                 <ul>
                     <br></br>
@@ -153,7 +156,6 @@
             </span>
         </div>
     </div>
-    <a href="#" id="toTop"></a>
     <div class="title_portfolio" id="portfolio">
         <span>Портфолио</span>
     </div>
@@ -162,32 +164,25 @@
             <a id="a_portfolio" class="portfolio_click"
                 href="https://play.google.com/store/apps/details?id=com.Skilletron.TapDownTree"> <img src="img/icon.png"
                     width="135vw"></a><br>
-            <span>Tap Down Tree</span><br>
-            <span>Приложение Android</span>
+            <span>Tap Down Tree</span>
         </div>
         <div class="portfolio_card">
             <a id="a_portfolio" class="portfolio_click"
                 href="https://play.google.com/store/apps/details?id=com.TDM.TapDownTree2"><img src="img/icon_2.png"
                     width="135vw"></a><br>
             <span>Tap Down Tree 2</span>
-            <br>
-            <span>Приложение Android</span>
         </div>
         <div class="portfolio_card">
             <a id="a_portfolio" class="portfolio_click"
                 href="https://play.google.com/store/apps/details?id=com.TDM.CalculatorDarts"><img src="img/icon_3.PNG"
                     width="135vw" height="135vw"></a><br>
             <span>Darts Calculator</span>
-            <br>
-            <span>Приложение Android</span>
         </div>
         <div class="portfolio_card">
             <a id="a_portfolio" class="portfolio_click"
                 href="https://play.google.com/store/apps/details?id=com.Skilletron.TrashMan"><img src="img/icon_4.PNG"
                     width="135vw"></a><br>
             <span>Trash Man</span>
-            <br>
-            <span>Приложение Android</span>
         </div>
 
     </div>
@@ -276,26 +271,6 @@ $(document).ready(function(){
 		return false;
 	});
 });
-$(function(){
-  $.fn.scrollToTop=function(){
-    $(this).hide().removeAttr("href");
-    if($(window).scrollTop()!="0"){
-        $(this).fadeIn("slow")
-  }
-  var scrollDiv=$(this);
-  $(window).scroll(function(){
-    if($(window).scrollTop()=="0"){
-    $(scrollDiv).fadeOut("slow")
-    }else{
-    $(scrollDiv).fadeIn("slow")
-  }
-  });
-    $(this).click(function(){
-      $("html, body").animate({scrollTop:0},"slow")
-    })
-  }
-});
-$(function() {$("#toTop").scrollToTop();});
     </script>
 </body>
 
