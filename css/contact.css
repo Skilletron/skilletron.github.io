@@ -23,15 +23,16 @@ body{
     
     box-shadow: 0 0 5px 2px rgb(194, 193, 193);
     font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 3vw;
+    font-size: 2vw;
     font-weight: 600;
     margin-top:7vw;
     text-align: center;
 }
-#contact_img{
+#contact_img img{
     -moz-transition: all 2s ease-out;
     -o-transition: all 2s ease-out;
     -webkit-transition: all 2s ease-out;
+    width: 4vw;
 }
 #contact_img img:hover{
     -webkit-transform: scale(1.1);
