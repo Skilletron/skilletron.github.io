@@ -1,5 +1,5 @@
 .greyProgress_0,.greyProgress_1,.greyProgress_2,.greyProgress_3
-,.greyProgress_4,.greyProgress_5,.greyProgress_6,.greyProgress_7,.greyProgress_8 {
+,.greyProgress_4,.greyProgress_5,.greyProgress_6,.greyProgress_7,.greyProgress_8,.greyProgress_9 {
     position: relative;
     width: 100%;
     background-color: #ddd;
@@ -18,7 +18,7 @@
   }
 .bar_1 {
   position: relative;
-  width: 28vw;
+  width: 33vw;
   height: 1vw;
   background-color:rgb(35, 129, 223);
   text-align: center;
@@ -29,7 +29,7 @@
 
 .bar_2 {
   position: relative;
-  width: 28vw;
+  width: 23vw;
   height: 1vw;
   background-color:rgb(35, 129, 223);
   text-align: center;
@@ -40,7 +40,7 @@
 
 .bar_3 {
   position: relative;
-  width: 28vw;
+  width: 19vw;
   height: 1vw;
   background-color:rgb(35, 129, 223);
   text-align: center;
@@ -51,7 +51,7 @@
 
 .bar_4 {
   position: relative;
-  width: 28vw;
+  width: 22vw;
   height: 1vw;
   background-color:rgb(35, 129, 223);
   text-align: center;
@@ -61,7 +61,7 @@
   }
   .bar_5 {
     position: relative;
-    width: 28vw;
+    width: 34vw;
     height: 1vw;
     background-color:rgb(35, 129, 223);
     text-align: center;
@@ -71,7 +71,7 @@
   }
   .bar_6 {
     position: relative;
-    width: 28vw;
+    width: 30vw;
     height: 1vw;
     background-color:rgb(35, 129, 223);
     text-align: center;
@@ -81,7 +81,7 @@
   }
   .bar_7 {
     position: relative;
-    width: 28vw;
+    width: 40vw;
     height: 1vw;
     background-color:rgb(35, 129, 223);
     text-align: center;
@@ -91,7 +91,17 @@
   }
   .bar_8 {
     position: relative;
-    width: 28vw;
+    width: 35vw;
+    height: 1vw;
+    background-color:rgb(35, 129, 223);
+    text-align: center;
+    line-height: 3vw;
+    color: white;
+    border-radius:0.7vw;
+  }
+  .bar_9 {
+    position: relative;
+    width: 20vw;
     height: 1vw;
     background-color:rgb(35, 129, 223);
     text-align: center;

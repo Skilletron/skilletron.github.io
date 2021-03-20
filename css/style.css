@@ -153,10 +153,11 @@ button:focus{
     max-height: 0vw;
 
 }
-.me_img{
+.me_img img{
     display: flex;
     flex-direction: column;
     width: 30vw;
+    
     
 }
 .me_card{
