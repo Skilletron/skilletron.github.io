@@ -21,10 +21,9 @@
 .container-education{
     display: flex;
     justify-content: space-around;
-  
     flex-direction: column;
     width: 100%;
-    margin-top: 40vw;
+    margin-top: 80vw;
     height: 0vw;
 
 }
