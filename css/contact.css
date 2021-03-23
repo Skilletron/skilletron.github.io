@@ -39,3 +39,18 @@ body,html{
     -moz-transform: scale(1.1);
     -o-transform: scale(1.1);
 }
+@media (max-width: 768px){
+    .title_contact_me{
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 2.6vw;
+        font-weight: 600;
+        margin-top:7vw;
+        text-align: center;
+    }
+    #contact_img img{
+        -moz-transition: all 2s ease-out;
+        -o-transition: all 2s ease-out;
+        -webkit-transition: all 2s ease-out;
+        width: 6vw;
+    }
+}

@@ -108,7 +108,7 @@ a:hover{
     font-weight: 1000;
     text-align: center;
     height:3vw;
-    width: 12vw;;
+    width: 8vw;;
     background-color: white;
     color:rgb(35, 129, 223);
     border-radius:1.2vw;
@@ -122,7 +122,7 @@ button:hover{
     font-size: 1.6vw;
     font-weight: 600;
     height:3vw;
-    width: 8vw;;
+    width: 8vw;
     background-color: rgb(233, 231, 231);
     color:rgb(35, 129, 223);
     border-radius:1.2vw;
@@ -156,7 +156,7 @@ button:focus{
 .me_img img{
     display: flex;
     flex-direction: column;
-    width: 30vw;
+    width: 20vw;
     
     
 }
@@ -180,6 +180,7 @@ button:focus{
     font-size:1.2vw;
     font-weight: 500;
     margin:0 auto;
+    padding: 2vw;
     margin-top: -2.8vw;
     margin-left: 2vw;
     white-space: normal;
@@ -189,7 +190,7 @@ button:focus{
 .li_skills img {
     display: flex;
     flex-direction: column;
-    width: 30vw;
+    width: 20vw;
    
   
 }
@@ -213,3 +214,153 @@ button:focus{
     color: transparent;
     text-decoration: none;
    }
+   @media (max-width: 768px) {
+    .li_skills img {
+        display: flex;
+        flex-direction: column;
+        width: 30vw;
+       
+      
+    }
+    .me_img img{
+        display: flex;
+        flex-direction: column;
+        width: 30vw;
+        
+        
+    }
+    .me_info{
+    
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 auto;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size:2vw;
+        font-weight: 500;
+        margin:0 auto;
+        margin-top: -2.8vw;
+        margin-left: 2vw;
+        white-space: normal;
+        line-height: 2vw;
+        text-align: match-parent;
+    }
+    .me_info_title{
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size:3vw;
+        font-weight: 800;
+    }
+    .text_education{
+        text-align: center;
+        box-shadow: 0 6px 0px 0px rgb(194, 193, 193);
+        width: 25vw;
+        border-radius: 5vw;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 1.2vw;
+        font-weight: 700;
+        
+    }
+    .hire_btn{
+        border: black;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 2vw;
+        font-weight: 1000;
+        text-align: center;
+        height:4vw;
+        width: 12vw;;
+        background-color: white;
+        color:rgb(35, 129, 223);
+        border-radius:1.2vw;
+        -moz-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
+        -webkit-transition: all 1s ease-out;
+    }
+    button:hover{
+        border:0px;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 1.6vw;
+        font-weight: 600;
+        height:3vw;
+        width: 12vw;;
+        background-color: rgb(233, 231, 231);
+        color:rgb(35, 129, 223);
+        border-radius:1.2vw;
+        
+        
+    }
+    a{
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 0vw;
+        font-weight: 500;
+        color: ghostwhite;
+        text-decoration: none;
+        margin:0.2vw;
+        -moz-transition: all 0.2s ease-out;
+        -o-transition: all 0.2s ease-out;
+        -webkit-transition: all 0.2s ease-out;
+        
+    }
+    .main-container{
+  
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        height: 85vw;
+        align-items: flex-start;
+        margin:0 auto;
+        margin-left:5%;
+        margin-top: 10vw;
+        width: 90%;
+        box-shadow: 0 4px 4px 0px rgb(194, 193, 193);
+    
+    
+       
+    }
+    .header_text_name{
+
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: 800;
+        font-size: 3.6vh;
+        color: ghostwhite;
+    }
+    #toTop {
+        position:fixed;
+        z-index:9999;
+        bottom:1vw;
+        right:1vw;
+        background: url('../img/up.png')  no-repeat;
+        background-size: contain;
+        background-position: center;
+        cursor: pointer;
+        object-fit: scale-down;
+        width: 8vw;
+        height: 8vw;
+        color: transparent;
+        text-decoration: none;
+       }
+
+    a{
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 2.4vw;
+        font-weight: 500;
+        color: ghostwhite;
+        text-decoration: none;
+        margin:0.2vw;
+        -moz-transition: all 0.2s ease-out;
+        -o-transition: all 0.2s ease-out;
+        -webkit-transition: all 0.2s ease-out;
+        
+    }
+    a:hover{
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 2vw;
+        font-weight: 700;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        border-radius: 0.5vw;
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        
+        
+    }
+  }
